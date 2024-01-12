@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#220817 ;
+}
+.logo img{
+    width: 100px;
+    margin-left: 50px;
+}
+.navbar{
+
+}
+.navbar ul{
+    margin: auto;
+
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.banner{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/028/714/265/small/fashion-week-male-model-isolated-on-gradient-background-with-a-place-for-text-photo.jpg ) no-repeat center;
+    background-size: cover;
+    padding: 200px 0px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100$;
+    width: 100%;
+    z-index: -1;
+}
+.banner-content{
+    padding: 120px 100px 0px;
+    box-sizing: border-box;
+}
+.banner-content h2{
+    margin: 30px 0px;
+}
+.banner-content .btn{
+    margin-top: 60px;
+    background-color: rgb(243, 116, 12);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.banner-content .btn:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline;
+}
+.team-section{
+    background-color:#a94438;
+    color: #fff;
+}
+.title{
+    margin: 50px 0px 20px;
+}
+.team-card{
+    margin: 50px 0px 20px;
+    padding: 0px 80px;
+}
+.team-card img{
+    max-width: 100%;
+}
+.card-title{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.card-btn{
+    background-color: #11009e;
+    color: #fff;
+    margin: 20px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.card-btn:hover{
+    background-color: rgb(0, 255, 85);
+    color: #000;
+    margin: 20px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+.about{
+    background-color: #597e52;
+}
+.bio li{
+    padding: 5px 0px;
+    list-style: none;
+}
+.about-me span{
+    font-size: 20px;
+    font-weight: 40%;
+}
+.contact{
+    background-color:#7fc7d9;
+}
+.location iframe{
+ margin-left: -70px;
+}
+.contact-section label{
+    font-weight: bold;
+}
+.contact-section input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-color:#ff9800;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.contact-section textarea{
+    width: 100%;
+    height: 200px;
+    border: none;
+    outline: none;
+    background-color:#fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #000;
+}
+.contact-section button{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    background-color:rgb(37, 49, 90);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s;
+    color: #fff;
+}
+.contact-section button:hover{
+    background-color: green;
+}
+footer{
+    background-color:#65b741;
+    color: #fff;
+}
+.footer-section p{
+    font-size: 25px;
+}
+
+
